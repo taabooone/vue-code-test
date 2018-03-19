@@ -7,9 +7,10 @@
 ``` bash
 # install dependencies
 npm install
+cd server
+npm install
 
 # start server
-cd server
 npm run dev
 
 # serve with hot reload at localhost:8080
