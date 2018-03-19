@@ -17,4 +17,10 @@ npm run dev
 cd ..
 npm run dev
 
+# post a teamlead to the server
+{
+  email: 'test@example.com',
+  password: 'password',
+  role: 'team-lead'
+}
 ```
