@@ -53,12 +53,12 @@
         for(let i=0; i < this.size; i++) {
           password += CharacterSet.charAt(Math.floor(Math.random() * CharacterSet.length))
         }
+
         this.password = password;
         this.$emit('passwordGenerated', { message: this.password })
       },
       handleChange: function(e){
         this.password = e.target.value
-        console.log(e.target.value)
         this.$emit('onChange', { message: this.password })
       }
     }
