@@ -17,7 +17,10 @@ npm run dev
 cd ..
 npm run dev
 
-# post a teamlead to the server
+# create a teamlead on the server
+
+POST localhost:3001/users 
+
 {
   email: 'test@example.com',
   password: 'password',
